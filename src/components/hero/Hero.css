@@ -1,0 +1,50 @@
+.hero-section {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 60px; 
+}
+
+.hero-textarea {
+    flex: 1; 
+    margin-left: 80px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.hero-textarea h1 {
+    text-transform: uppercase;
+}
+
+.hero-image {
+    flex: 1.2; 
+    display: flex;
+    position: relative; 
+    margin-right: 70px;
+    height: auto;
+}
+
+.hero-image img {
+    height: auto;
+    max-width: 100%;
+}
+
+.view-project {
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    background-color: white;
+    padding: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Roboto-Light';
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    color: #333;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+.view-project:hover {
+    background-color: rgb(188, 184, 184);
+}

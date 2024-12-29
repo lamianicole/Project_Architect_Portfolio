@@ -1,0 +1,60 @@
+.about-section {
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px;
+    margin: 0 20px 40px 60px;
+}
+
+.about-images-con {
+    display: flex;
+    flex: 1; 
+    gap: 20px; 
+}
+
+.images-left {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    flex: 1; 
+}
+
+.image-mid {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex: 1; 
+}
+
+.text-right {
+    flex: 1; 
+    padding-left: 40px;
+    margin-right: 120px;
+    margin-top: 20px;
+}
+
+.text-right h1 {
+    margin-bottom: 10px;
+}
+
+.text-right p {
+    font-family: 'Roboto-Light';
+    font-size: 1.4rem;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.text-right a {
+    padding: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Roboto-Light';
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    color: #333;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+.text-right a:hover {
+    background-color: rgb(188, 184, 184);
+}
