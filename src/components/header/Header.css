@@ -5,6 +5,11 @@ header {
     align-items: center; 
     padding: 20px; 
     background-color: #ffffff; 
+    
+}
+
+.dark header {
+    background-color: #2c2c2c; 
 }
 
 .home-logo {
@@ -42,6 +47,10 @@ header {
     text-transform: uppercase;
 }
 
+.dark .navbar a {
+    color: white; 
+}
+
 .darkmode-icon {
     margin-left: 45px;
 }
@@ -53,4 +62,9 @@ header {
 .active-link {
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
+}
+
+.dark .active-link {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }

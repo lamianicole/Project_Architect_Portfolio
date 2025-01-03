@@ -22,14 +22,22 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  /* vererbt Hintergrund */
+  background: inherit;
 }
 
 html {
   font-size: 10px;
+  height: 100%;
 }
 
 body {
   background-color: white;
+  height: 100%;
+}  
+
+.dark body {
+  background-color: #2C2C2C;
 }
 
 img {
@@ -40,6 +48,7 @@ h1 {
   text-align: left; 
   font-family: 'Roboto-Light';
   font-size: 4.5rem;
+  font-weight: 300;
   color: gray;
   letter-spacing: 1.2px;
 }
@@ -48,4 +57,10 @@ h2 {
   text-align: left; 
   font-family: 'Roboto-Medium';
   font-size: 3rem;
+  font-weight: 300;
 }
+
+.dark h2 {
+  color: white;
+}
+

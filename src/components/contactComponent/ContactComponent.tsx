@@ -1,5 +1,5 @@
 import "./ContactComponent.css";
-import contactImg from "../../../public/img/contact.png";
+import contactImg from "/img/contact.png";
 
 const ContactComponent = () => {
     return ( 

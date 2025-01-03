@@ -1,4 +1,4 @@
-.dark-light-mode svg {
-    fill: black;
+.dark svg {
+    fill: #2C2C2C;
     cursor: pointer;
 }

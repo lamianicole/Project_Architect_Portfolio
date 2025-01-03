@@ -8,8 +8,8 @@ import Dark from "../../assets/svg/Dark";
 const DarkMode = () => {
     const { darkMode, setDarkMode } = useContext(DarkModeContext);
     return ( 
-        <div className="dark-light-mode" onClick={() => setDarkMode(!darkMode)}>
-            {darkMode ? <Light /> : <Dark />}
+        <div className="dark" onClick={() => setDarkMode(!darkMode)}>
+            {darkMode ? <Light/> : <Dark/>}
         </div>
     );
 }

@@ -1,8 +1,12 @@
 .contact-section {
-    padding: 20px;   
+    padding-left: 80px;
+    padding-right: 80px;
     background-color: #ffffff;
-    margin: 0 50px 40px 60px;  
     position: relative;              
+}
+
+.dark .contact-section {
+    background-color: #2c2c2c;
 }
 
 .contact-section h1 {
@@ -32,10 +36,10 @@
     width: 100%;                       
     padding: 5px;                   
     margin-bottom: 10px;             
-    border: 1px solid #ccc;            
     background-color: #f3f3f3;  
     height: 65px;  
-    font-family: 'Roboto-Light';        
+    font-family: 'Roboto-Light';     
+    border: none;   
 }
 
 .send-message-btn {
@@ -46,12 +50,17 @@
     text-decoration: none; 
     color: white; 
     text-transform: uppercase;
-    /* bg-color auch für dark mode nehmen */
     background-color: rgb(54, 59, 59); 
     transition: all 0.3s;
     text-align: center;
     border: none;
     margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.dark .send-message-btn {
+    background-color: #ffffff;
+    color: #2c2c2c;
 }
 
 .send-message-btn:hover { 
@@ -64,4 +73,3 @@
     height: auto;
     object-fit: cover; 
 }
-
