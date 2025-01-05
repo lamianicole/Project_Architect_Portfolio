@@ -3,7 +3,6 @@ import ContactComponent from "../../components/contactComponent/ContactComponent
 import Hero from "../../components/hero/Hero";
 import Mission from "../../components/mission/Mission";
 import ProjectsComponent from "../../components/projectsComponent/projectsComponent";
-import "./Home.css"
 
 const Home = () => {
     return ( 

@@ -7,15 +7,13 @@
     font-size: 4.5rem;
     color: gray;
     letter-spacing: 1.2px;
-    padding-top: 40px;
-    padding-left: 80px;
+    padding: 40px 0 0 80px;
 }
 
 .mission-content {
     display: flex;
     gap: 60px;
-    padding-left: 70px;
-    padding-right: 30px;
+    padding: 0 30px 0 70px;
 }
 
 .mission-item {
@@ -43,3 +41,27 @@
 .dark .mission-item p {
     color: white;
 }
+
+/* Mobile Ansicht für small devices (max-width: 600px) */
+@media (max-width: 600px) {
+
+  .mission h1 {
+    font-size: 3rem; /* Kleinere Schriftgröße für mobile Geräte */
+    padding: 20px 0 0 20px; /* Weniger Padding */
+  }
+
+  .mission-content {
+    flex-direction: column; /* Stellt die Items untereinander */
+    gap: 20px; /* Kleinere Abstände */
+    padding: 0 10px;
+  }
+
+  .number {
+    font-size: 6rem;
+  }
+
+  .mission-item p {
+    font-size: 1.2rem;
+    padding-right: 20px;
+  }
+} 

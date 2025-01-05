@@ -1,8 +1,7 @@
 .contact-section {
-    padding-left: 80px;
-    padding-right: 80px;
+    padding: 0 80px;
     background-color: #ffffff;
-    position: relative;              
+    position: relative;
 }
 
 .dark .contact-section {
@@ -18,44 +17,43 @@
 }
 
 .contact-con {
-    display: flex;                    
-    gap: 20px; 
-    flex-wrap: wrap;                       
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .contact-form {
-    flex: 1;                          
-    min-width: 300px;    
-    max-width: 100%;             
-    display: flex; 
+    flex: 1;
+    min-width: 300px;
+    max-width: 100%;
+    display: flex;
     flex-direction: column;
 }
 
 .contact-form input,
 .contact-form textarea {
-    width: 100%;                       
-    padding: 5px;                   
-    margin-bottom: 10px;             
-    background-color: #f3f3f3;  
-    height: 65px;  
-    font-family: 'Roboto-Light';     
-    border: none;   
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #f3f3f3;
+    height: 65px;
+    font-family: 'Roboto-Light';
+    border: none;
 }
 
 .send-message-btn {
-    padding: 20px; 
+    padding: 20px;
     font-family: 'Roboto-Light';
-    font-size: 1.3rem; 
+    font-size: 1.3rem;
     letter-spacing: 2px;
-    text-decoration: none; 
-    color: white; 
+    text-decoration: none;
+    color: white;
     text-transform: uppercase;
-    background-color: rgb(54, 59, 59); 
+    background-color: rgb(54, 59, 59);
     transition: all 0.3s;
     text-align: center;
     border: none;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin: 20px 0 40px;
 }
 
 .dark .send-message-btn {
@@ -63,13 +61,44 @@
     color: #2c2c2c;
 }
 
-.send-message-btn:hover { 
+.send-message-btn:hover {
     background-color: rgb(188, 184, 184);
-} 
+}
 
 .contact-img {
-    flex: 2;                           
+    flex: 2;
     max-width: 100%;
     height: auto;
-    object-fit: cover; 
+    object-fit: cover;
+}
+
+/* Mobile Ansicht für small devices (max-width: 600px) */
+@media (max-width: 600px) {
+
+  .contact-section {
+    padding: 10px 20px; 
+  }
+
+  .contact-section h1 {
+    font-size: 2.5rem; 
+  }
+
+  .contact-con {
+    flex-direction: column; 
+    gap: 10px; 
+  }
+
+  .contact-form {
+    width: 100%; 
+  }
+
+  .contact-img {
+    width: 100%;
+    flex: none; 
+  }
+
+  .send-message-btn {
+    font-size: 1rem; 
+    padding: 15px; 
+  }
 }

@@ -57,3 +57,25 @@ h2 {
 h2.dark {
   color: white;
 }
+
+
+/* Mobile Ansicht für small devices (max-width: 600px) */
+@media (max-width: 600px) {
+  html {
+    font-size: 8px; 
+  }
+
+  h1 {
+    font-size: 3rem; 
+    text-align: center; 
+  }
+  
+  h2 {
+    font-size: 2rem; 
+    text-align: center; 
+  }
+
+  body {
+    padding: 20px; 
+ }
+}

@@ -37,3 +37,19 @@
         transform: rotate(360deg);
     }
 }
+
+/* Mobile Ansicht für small devices (max-width: 600px) */
+@media (max-width: 600px) {
+
+  .loader-area h1 {
+    font-size: 2rem; /* Kleinere Schriftgröße für mobile Geräte */
+    margin-bottom: 20px;
+  }
+
+  .loader-area .loader {
+    width: 80px;
+    height: 80px;
+    border: 12px solid #c3cdd5;
+    border-top: 12px solid #333333;
+  }
+}

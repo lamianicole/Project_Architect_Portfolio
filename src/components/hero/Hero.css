@@ -8,6 +8,10 @@
     background-color: #2c2c2c;
 }
 
+.dark .hero-section h2 {
+    color: white;
+}
+
 .hero-textarea {
     flex: 1; 
     margin-left: 80px; 
@@ -52,4 +56,35 @@
 
 .view-project:hover {
     background-color: rgb(188, 184, 184);
+}
+
+/* Mobile Ansicht für small devices (max-width: 600px) */
+@media (max-width: 600px) {
+
+  .hero-section {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .hero-textarea {
+    flex: none;
+    margin: 0;
+  }
+
+  .hero-image {
+    flex: none;
+    margin: 0;
+  }
+
+  .hero-textarea h1 {
+    font-size: 2.5rem; /* Kleinere Schriftgröße für mobile Geräte */
+    text-align: center;
+  }
+
+  .view-project {
+    font-size: 1rem;
+    padding: 15px;
+  }
 }
