@@ -2,7 +2,6 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import './App.css'
 import RootLayout from './rootLayout/RootLayout'
 import Home from './pages/home/Home'
-import NotFound from './pages/notFound/NotFound'
 import { useState } from 'react'
 import { DarkModeContext } from './context/Context'
 import Gallery from './pages/gallery/Gallery'
@@ -19,9 +18,7 @@ const router = createBrowserRouter(
     <Route path='/' element={<RootLayout />}>
       <Route index element={<Home />} />
       <Route path='gallery' element={<Gallery />} />
-      <Route path='*' element={<NotFound />} />
       <Route path='loader' element={<Loader />} /> 
-
     </Route>
     </>
   )

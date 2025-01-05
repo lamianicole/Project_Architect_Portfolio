@@ -1,46 +1,60 @@
 .footer-section {
-    background-color: #2c2c2c;
-    font-family: "Roboto-Bold";
-    flex-direction: row;
-    padding: 40px 0 0 80px; 
     display: grid;  
     grid-template-columns: repeat(4, 1fr);
-    gap: 30px;                      
-    color: white;                  
+    gap: 30px;
+    background-color: #2c2c2c;
+    color: white;
+    font-family: 'Roboto-Light';
+    padding: 40px 0 0 80px; 
 }
 
 .footer-architect-logo img {
     width: 33%;
 }
 
-.footer-section .information {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin-bottom: 20px; 
-}
-
-.footer-section .contact-information {
-    display: flex;
-    flex-direction: column;
-}
-
+.footer-section .information,
+.footer-section .contact-information,
 .footer-section .socials {
     display: flex;
     flex-direction: column;
 }
 
-.footer-section .information h4, .footer-section .contact-information h4, .footer-section .socials h4 {
-    font-family: 'Roboto-Regular';
+.footer-section .information {
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+
+.footer-section h4 {
     color: white;
+    font-family: 'Roboto-Regular';
     font-size: 1.5rem;
     margin-bottom: 20px;
 }
 
-.footer-section .information p, .footer-section .contact-information p {
-    font-family: 'Roboto-Light';
-    color: white;
+.footer-section p {
     font-size: 1.2rem;
     line-height: 2;
+}
+
+.socials-logo {
+    display: flex;
+    gap: 30px;
+}
+
+.socials-logo img {
+    width: 13px; 
+    height: 14px;
+}
+
+hr {
+    border: 0.5px solid #c8c8c8;
+}
+
+.copyright {
+    background-color: #2c2c2c;
+    color: #C8C8C8;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 2vh;
 }

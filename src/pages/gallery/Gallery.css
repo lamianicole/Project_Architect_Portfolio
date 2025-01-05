@@ -1,0 +1,20 @@
+.gallery-section {
+    padding: 0 60px 60px;
+    text-align: center; 
+}
+
+.dark .gallery-section {
+    background-color: #2c2c2c;
+}
+
+.gallery-con {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 35px;
+    padding: 30px 0 80px;
+}
+
+.img-card {
+    width: 100%;
+    height: auto;
+}

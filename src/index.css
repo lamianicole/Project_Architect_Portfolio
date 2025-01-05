@@ -22,21 +22,15 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* vererbt Hintergrund */
-  background: inherit;
+  background: inherit; /* Vererbt Hintergrund */
 }
 
-html {
+html, body {
   font-size: 10px;
   height: 100%;
 }
 
-body {
-  background-color: white;
-  height: 100%;
-}  
-
-.dark body {
+body.dark {
   background-color: #2C2C2C;
 }
 
@@ -45,22 +39,21 @@ img {
 }
 
 h1 {
-  text-align: left; 
   font-family: 'Roboto-Light';
   font-size: 4.5rem;
   font-weight: 300;
   color: gray;
   letter-spacing: 1.2px;
+  text-align: left; 
 }
 
 h2 {
-  text-align: left; 
   font-family: 'Roboto-Medium';
   font-size: 3rem;
   font-weight: 300;
+  text-align: left; 
 }
 
-.dark h2 {
+h2.dark {
   color: white;
 }
-

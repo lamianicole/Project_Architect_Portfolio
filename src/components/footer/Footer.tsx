@@ -1,8 +1,13 @@
 import "./Footer.css";
 import footerArchitectLogo from "../../../src/assets/footerArchitectLogo.svg";
+import Facebook from "/img/facebook.png";
+import Twitter from "/img/twitter.png";
+import LinkedIn from "/img/linkedin.png";
+import Pinterest from "/img/pinterest.png";
 
 const Footer = () => {
     return (
+        <>
         <footer className="footer-section">
             <div className="footer-architect-logo">
                 <img src={footerArchitectLogo} alt="logo" className="footer-logo" />
@@ -28,14 +33,17 @@ const Footer = () => {
             
             <div className="socials">
                 <h4>Social Media</h4>
-                {/* <div className="socials-logo">
+                <div className="socials-logo">
                     <img src={Facebook} alt="Facebook" />
                     <img src={Twitter} alt="Twitter" />
                     <img src={LinkedIn} alt="LinkedIn" />
                     <img src={Pinterest} alt="Pinterest" />
-                </div> */}
+                </div>
             </div>
         </footer>
+        <hr />
+        <p className="copyright">© 2021 All Rights Reserved</p>
+        </>
     );
 };
 
