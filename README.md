@@ -1,50 +1,38 @@
-# React + TypeScript + Vite
+# Architect Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a responsive, dark-mode enabled web application built using TypeScript and React. It includes components like Header, Footer, Gallery, About, Contact, and more, all styled with CSS and media queries to ensure a seamless experience across various devices.
 
-Currently, two official plugins are available:
+## Technologies Used
+- TypeScript
+- React
+- React Router
+- CSS
+- Media Queries
+- Dark Mode Implementation
+- Flexbox & Grid
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features ##
+- Responsive Design: Optimized for mobile, tablet, and desktop views
+- Dark Mode: Easily switch between light and dark themes
+- Components: Modular and reusable components such as Header, Footer, Gallery, About, and Contact
+- Burger Menu: Mobile-friendly navigation with a burger menu
+- Routing: Seamless navigation between different pages using React Router
+- Loader: Displays a spinning loader while content is being fetched or processed
 
-## Expanding the ESLint configuration
+## Component Overview ##
+- Header: Includes a responsive burger menu for mobile navigation, and a dark-mode toggle icon
+- Footer: Displays contact information, social media links, and other important information
+- Gallery: A fully responsive photo gallery that adjusts to different screen sizes
+- About: Showcases company or project details in a visually appealing format
+- Contact: A responsive contact form for user inquiries
+- Routing: Navigation between different components is handled using React Router
+- Loader: Displays a spinning loader while content is being fetched or processed
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Link & Preview ##
+Link: https://project-architect-pf.netlify.app/
 
-- Configure the top-level `parserOptions` property like this:
+Preview Website
+![screenshot](/public/img/preview-web.png)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Preview Mobile
+![screenshot](/public/img/preview-mobile.png)
