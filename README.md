@@ -31,8 +31,7 @@ This project is a responsive, dark-mode enabled web application built using Type
 ## Link & Preview ##
 Link: https://project-architect-pf.netlify.app/
 
-Preview Website
+Preview Website & Mobile Version
 ![screenshot](/public/img/preview-web.png)
 
-Preview Mobile
 ![screenshot](/public/img/preview-mobile.png)
